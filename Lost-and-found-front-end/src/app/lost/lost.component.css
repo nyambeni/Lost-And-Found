@@ -1,0 +1,61 @@
+body
+{
+   
+	background-image: url(/src/app/login/image/1.png) no-repeat;
+	
+}
+form{
+	margin : 0 auto;
+	padding: 0;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    color:rgb(120, 143, 101);
+    /**/
+    
+    
+}
+
+
+.btn
+{
+width: 200%;
+background: none;
+border: 2px solid #4caf50;
+color: rgb(67, 221, 106);
+padding: 0px;
+font-size: 20px;
+cursor: pointer;
+margin: 10px 0;
+}
+.head
+{
+	float: left;
+	font-size: 20px;
+	border-bottom: 6px solid  #4caf50;
+	margin-bottom: 40px;
+	padding: 0;
+	color:rgb(51, 94, 77);
+}
+
+.input
+{
+	width: 200%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8 px 0;
+	border-bottom: 2px solid rgb(62, 87, 41);
+    border-top-width: thin;
+    border-right-width: 0px;
+    border-left-width: 0px;
+
+}
+.pev
+{
+    text-align: left;
+    text-align-last: justify;
+    margin-top: 20px;
+}

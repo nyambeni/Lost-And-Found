@@ -1,0 +1,47 @@
+<link href="register.component.html">
+<link href="login.component.html">
+<link href="lost.component.html">
+<link href="landing-page.component.html">
+<link href="forgot-password.component.html">
+<link href="navbar.component.html">
+<link href="admin-lost-n-found.component.html">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: url(/src/app/assets/pcs/lost-and-found-proglem.png);">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="active" routerLink="">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="">AboutUs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+       
+
+          <!--<a href="/src/app/register/register.component.html">-->
+            <button><a class="active" routerLink="/register">Sign Up</button></a>
+       
+
+          <form id="call" >
+
+          </form>
+
+          <script> 
+          function myFunction(){
+
+            document.getElementById("call").innerHTML ="login.component.html";
+          };
+          </script>
+
+        <li class="nav-item">
+          <button><a class="active" routerLink="/login">Sign In</button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>

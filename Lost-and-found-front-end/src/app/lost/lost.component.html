@@ -1,0 +1,71 @@
+
+
+<head>
+
+  <link href="register.component.html">
+  <link href="login.component.html">
+  <link href="lost.component.html">
+  <link href="landing-page.component.html">
+  <link href="forgot-password.component.html">
+  <link href="navbar.component.html">
+  <link href="admin-lost-n-found.component.html">
+
+</head>
+
+
+<link href="lost.component.css" type="text/css" rel="stylesheet">
+<nav class="navbar navbar-inverse">
+    
+</nav>
+<br>
+<br>
+<div class="box">
+  <div class="container" style="background: rgba(124, 192, 106, 0);">
+<form method="POST"action="/found">
+      <div class="row justify-content-center">
+	  
+          <h1><b>Welcome to the lost Profile</b></h1>
+      </div>
+
+	  <br><br>
+	  
+	  
+	  <br><br>
+      <input placeholder="describe the lost item" name="">
+		<br>
+		
+	
+   
+      <br>
+      <br>
+      <label>Date:</label>
+      <input type="date" style="margin-left: 38px;" id="date" />
+      <br>
+      <label>Time:</label>
+      <input type="time" style="margin-left: 77px;" id="time" /><br>
+      <button id="btnSave" style="margin-left: 38px;">Submit</button><br>
+      <br>
+     <div class="row">
+       
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
+          <div class="box-part text-center">          
+              <i class="fas fa-book fa-10x" aria-hidden="true"></i>                               
+                     
+          </div>
+        </div>
+      
+        <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12"> 
+          <div class="box-part text-center">          
+              <i class="fas fa-sticky-note fa-10x" aria-hidden="true"></i>                               
+                      
+          </div>
+        </div>
+
+  </div>
+</form>  
+  </div>
+  <br>
+<br>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,39 +1,59 @@
-<div class="reg" style="background: rgba(164, 192, 156, 0.7); width: 399px ; margin:0 auto ; margin-top: 100px;text-align:center;margin-bottom: 100px;">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<link href="register.component.css" type="text/css" rel="stylesheet">
+<link href="login.component.html" > 
+
+
+
+<body >
+  <img src="/src/assets/image/7.jpg">
+<div class="reg" style="width: 399px ; margin:0 auto ; margin-top: 100px;text-align:center;margin-bottom: 100px;">
         <form style="margin-top: 100px; text-align:center;">
-            <br>
-            <br>
-        <label >First Name</label><br>
-        <input type="text" name = "fname"><br>
+
+        <br>
+        <h1 class="head"><b> REGISTER</b></h1>
+        <br>
+        <label>First Name</label><br>
+        <input type="text" name="fname" class="input" id="fName" placeholder="First Name" ><br>
 
         <label >Last Name</label><br>
-        <input type="text" name = "lname"><br>
+        <input type="text" name = "lname" class="input" id="LName" placeholder="Last Name"><br>
 
         <label >E-mail</label><br>
-        <input type="email" name = "E-mail"><br>
+        <input type="email" name = "E-mail" class="input" id="email" placeholder="E-mail"><br>
 
         <label >ID Number</label><br>
-        <input type="text" name = "ID"><br>
+        <input type="text" name = "ID"class="input" id="id" placeholder="Id Number"><br>
         
         <label >Phone Number</label><br>
-        <input type="text" name = "Phone"><br>
+        <input type="text" name = "Phone" class="input" id="phone" placeholder="Phone Number"><br>
 
         <label >Address</label><br>
-        <input type="text" name = "Address"><br>
+        <input type="text" name = "Address" class="input" id="Address" placeholder="Address"><br>
 
         <label >Password</label><br>
-        <input type="password" name = "Password"><br>
+        <input type="password" name = "Password" class="input" id="password" placeholder="Password"><br>
 
         <label >Confirm Password</label><br>
-        <input type="password" name = "confirm_Password"><br>
+        <input type="password" name = "confirm_Password" class="input" id="confirm_Password" placeholder="Confirm Password"><br>
         <br>
 
         <button type="submit" class="btn btn-primary">Submit</button><br>
+          Already have an account<a routerLink="register">  Login here!!</a> 
+        
         <br>
         <br>
 
         
     </form>
 </div>
+</body>
+
+</div>
                            
                         
- <router-outlet></router-outlet>                   
+                
